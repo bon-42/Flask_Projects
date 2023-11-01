@@ -22,8 +22,3 @@ def bitcoin_price():
         if item["id"] == "bitcoin":
             price = item
     return jsonify(price["rateUsd"])
-
-
-@app.route("/hello")
-def hello():
-    return "Hey cutoram !"
