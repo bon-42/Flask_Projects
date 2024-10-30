@@ -1,0 +1,23 @@
+ {
+    "manifest_version": 3,
+    "name": "BlockCommentsAndRecommendations",
+    "version": "1.0",
+    "description": "Blocks all comments and recommendations on YouTube.",
+    "permissions": ["tabs", "webNavigation", "storage"],
+    "icons": {
+      "48": "icons/icon48.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["contentScript.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "action": {
+      "default_icon": "icons/icon48.png",
+      "default_title": "Block Comments and Recommendations"
+    }
+  }
+  
+  

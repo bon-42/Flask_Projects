@@ -1,0 +1,6 @@
+[submodule "hugo_projects/bontac/themes/gallery"]
+	path = hugo_projects/bontac/themes/gallery
+	url = https://github.com/nicokaiser/hugo-theme-gallery.git
+[submodule "hugo_projects/bontac/themes/hugo-theme-gallery"]
+	path = hugo_projects/bontac/themes/hugo-theme-gallery
+	url = https://github.com/nicokaiser/hugo-theme-gallery.git
